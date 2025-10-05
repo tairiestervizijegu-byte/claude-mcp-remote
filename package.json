@@ -1,25 +1,18 @@
 {
   "name": "claude-mcp-remote",
   "version": "1.0.0",
-  "description": "MCP Remote Server for Claude Web - 网页版Claude的MCP远程服务器",
+  "description": "Claude MCP Remote Server",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/server-fetch": "^0.5.0",
-    "@modelcontextprotocol/server-memory": "^0.3.0",
-    "@modelcontextprotocol/sdk": "^0.5.0",
-    "express": "^4.18.0",
+    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1"
+    "node-fetch": "^3.3.2"
   },
   "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": ["mcp", "claude", "ai", "remote-server"],
-  "author": "wanxin",
-  "license": "MIT"
+    "node": ">=18.x"
+  }
 }
